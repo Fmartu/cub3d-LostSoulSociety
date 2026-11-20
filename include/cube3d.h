@@ -298,14 +298,12 @@ int		blend_colors(int color1, int color2, float opacity);
 void	initialize_all_doors(t_game *game);
 int		verify_textures_loaded(t_game *game);
 
-/* Aggiungi queste dichiarazioni al tuo cube3d.h esistente */
-
-/* Door utilities - NUOVE FUNZIONI */
+/* Door utilities */
 void	initialize_door_states(t_game *game, int row);
 void	initialize_all_doors(t_game *game);
 int		verify_textures_loaded(t_game *game);
 
-/* Texture management - FUNZIONI ESISTENTI, non serve ridichiarare */
+/* Texture management */
 void	load_textures(t_game *game);
 int		load_wall_textures_from_config(t_game *game);
 void	load_start_textures(t_game *game);
